@@ -1,0 +1,11 @@
+deltas
+desalt
+lasted
+salted
+slated
+staled
+retainers
+ternaries
+resmelts
+smelters
+termless
