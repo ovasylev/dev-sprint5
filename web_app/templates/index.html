@@ -1,0 +1,20 @@
+<DOCTYPE html>
+<head>
+	<title>A Scrabble Word Finder</title>
+</head>
+<body>
+	<form action="/scrabble" method="post">
+		<p>Enter 7 letters in the field below:</p>
+		<input type="text" name="string" />
+		<input type="submit" value="Get result!" />
+	</form>
+
+	<div id="flashed">
+		{% with messages = get_flashed_messages() %}
+			{% for message in messages %}
+				{{message}}
+			{% endfor %}
+		{% endwith %}
+	</div>
+</body>
+</html>
